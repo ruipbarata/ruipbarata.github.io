@@ -57,7 +57,7 @@ function whoamiComplete(term) {
   term.echo('I already had a small band of covers and originals during high school.');
   term.echo('I was once an active member of Quantunna, a music academic group from F. C. T. of the University of Coimbra.');
   term.echo('Right now, I am not connected to any musical group and I decided to dedicate my free time to improve my skills with guitar and music in general.\n');
-  term.echo('Besides my addiction to music, I have another bobby. A little less commmon hobby: [' + white + 'fishkeeping], the world of aquariums.');
+  term.echo('Besides my addiction to music, I have another hobby. A little less commmon hobby: [' + white + 'fishkeeping], the world of aquariums.');
   term.echo('I am an [' + white + 'aquarist] and my biggest passion within this magnificent hobby is mainly [' + white + 'planted freshwater aquariums] and [' + white + 'aquascaping]: creating small underwater gardens.');
   term.echo('Maybe on day I will venture into the world of slatwater aquariums. Who knows...');
   term.echo('\nSome keywords to get to know me better:');
