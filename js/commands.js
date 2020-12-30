@@ -3,7 +3,8 @@ function help(term) {
   term.echo('[' + boldWhite + '\teducation]');
   term.echo('[' + boldWhite + '\tcareer]');
   term.echo('[' + boldWhite + '\tevents]');
-  term.echo('[' + boldWhite + '\tcontact]\n');
+  term.echo('[' + boldWhite + '\tcontact]');
+  term.echo('[' + boldWhite + '\tclear]');
   term.echo('Type \'help [COMMAND]\' to get more information about the commands.')
 }
 
@@ -30,6 +31,10 @@ function helpWhat(term, option) {
   else if (option.match("contact")) {
     term.echo('Usage: contact');
     term.echo("Ways to reach me");
+  }
+  else if(option.match("clear")) {
+    term.echo('Usage: clear');
+    term.echo("Cleans the terminal");
   }
 }
 
