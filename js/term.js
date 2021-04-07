@@ -14,6 +14,7 @@ function startTerm() {
     },
     whoami: function (option) { whoami(this, option); },
     education: function () { education(this); },
+    projects: function () { projects(this); },
     career: function () { career(this); },
     events: function () { events(this); },
     contact: function () { contact(this); },
@@ -29,6 +30,7 @@ function startTerm() {
   $.terminal.new_formatter([/help/g, '[[;green;]help]']);
   $.terminal.new_formatter([/whoami/g, '[[;green;]whoami]']);
   $.terminal.new_formatter([/education/g, '[[;green;]education]']);
+  $.terminal.new_formatter([/projects/g, '[[;green;]projects]']);
   $.terminal.new_formatter([/career/g, '[[;green;]career]']);
   $.terminal.new_formatter([/events/g, '[[;green;]events]']);
   $.terminal.new_formatter([/contact/g, '[[;green;]contact]']);

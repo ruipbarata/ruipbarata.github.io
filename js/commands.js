@@ -1,6 +1,7 @@
 function help(term) {
   term.echo('[' + boldWhite + '\twhoami]');
   term.echo('[' + boldWhite + '\teducation]');
+  term.echo('[' + boldWhite + '\tprojects]');
   term.echo('[' + boldWhite + '\tcareer]');
   term.echo('[' + boldWhite + '\tevents]');
   term.echo('[' + boldWhite + '\tcontact]');
@@ -19,7 +20,10 @@ function helpWhat(term, option) {
     term.echo('Usage: education');
     term.echo('My academic path');
   }
-
+  else if (option.match("projects")) {
+    term.echo('Usage: projects');
+    term.echo('Some of my personal works')
+  }
   else if (option.match("career")) {
     term.echo('Usage: career');
     term.echo('My professional experience');
@@ -32,7 +36,7 @@ function helpWhat(term, option) {
     term.echo('Usage: contact');
     term.echo("Ways to reach me");
   }
-  else if(option.match("clear")) {
+  else if (option.match("clear")) {
     term.echo('Usage: clear');
     term.echo("Cleans the terminal");
   }
@@ -84,6 +88,21 @@ function whoami(term, option) {
 
 function education(term) {
   term.echo('[' + boldWhite + 'Bachelor’s Degree: Informatics Engineering], University of Coimbra, Portugal');
+}
+
+function projects(term) {
+  term.echo('[' + white + 'Equisul]');
+  term.echo('This is a web site for an online store for selling equestrian equipment. It is still in a very early stage of development and the version on this site is just a demo. It may not even be the most current version.')
+  term.echo('https://equisul.herokuapp.com/')
+  term.echo('\n\n[' + white + 'udemy-time-to-answer]');
+  term.echo('Web application developed within the scope of the Udemy online course: Ruby on Rails 5.x - Do início ao fim!');
+  term.echo('https://github.com/ruipbarata/udemy-time-to-answer')
+  term.echo('\n\n[' + white + 'My first Ruby on Rails project]');
+  term.echo('https://github.com/ruipbarata/Blog');
+  term.echo('\n\n[' + white + 'WatchDrink]');
+  term.echo('https://play.google.com/store/apps/details?id=com.wixsite.watchdrink1920')
+
+  term.echo()
 }
 
 function career(term) {
