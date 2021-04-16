@@ -91,9 +91,9 @@ function education(term) {
 }
 
 function projects(term) {
-  term.echo('[' + white + 'Equisul]');
+  term.echo('[' + white + 'Equisul] work in progress... so much to do :(');
   term.echo('This is a web site for an online store for selling equestrian equipment. It is still in a very early stage of development and the version on this site is just a demo. It may not even be the most current version.')
-  term.echo('https://equisul.herokuapp.com/')
+  term.echo('https://equisul-dev.herokuapp.com/')
   term.echo('\n\n[' + white + 'udemy-time-to-answer]');
   term.echo('Web application developed within the scope of the Udemy online course: Ruby on Rails 5.x - Do início ao fim!');
   term.echo('https://github.com/ruipbarata/udemy-time-to-answer')
