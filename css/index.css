@@ -1,0 +1,14 @@
+body {
+  background-image: url("/resources/images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center; /* First value is from left and second is from top. You can use use number as well*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
